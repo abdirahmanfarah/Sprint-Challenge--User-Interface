@@ -223,8 +223,29 @@ footer nav a {
 .top-content-about{
     display:flex;
     justify-content: space-between;
+    flex-wrap:wrap;
 }
-.strat-about {
+button {
+    padding:5px;
+    width:25%;
+    margin:7px 0px;
+    background:white;
+    border:1px solid black;
+    border-radius:8px;
+}
+.h2-about{
+    padding-top:12px;
+}
+.Strat-about {
     display:flex;
-    width:28%;
+    flex-direction:column;
+    width:48%;
+    border-bottom:1px dashed black;
+    padding-bottom:6px;
+    margin-bottom:50px;
+}
+.how-we-work {
+    display:flex;
+    flex-direction:column;
+    width:48%;
 }
