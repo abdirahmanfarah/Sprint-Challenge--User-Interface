@@ -207,10 +207,10 @@ footer nav a {
     color:black;
     margin-top:30px;
 }
-/* .nav-container a:hover:{
+.nav-container a:hover{
     text-decoration:underline;
-    color:purple;
-} */
+    color:grey;
+} 
 .jumbo-about{
     margin:50px 0;
     width:100%;
@@ -230,7 +230,7 @@ button {
     width:25%;
     margin:7px 0px;
     background:white;
-    border:1px solid black;
+    border:1.5px solid black;
     border-radius:8px;
 }
 .h2-about{
@@ -248,4 +248,26 @@ button {
     display:flex;
     flex-direction:column;
     width:48%;
+    border-bottom:1px dashed black;
+    padding-bottom:6px;
+    margin-bottom:50px;
+}
+.places-we-work {
+    display:flex;
+    flex-direction:column;
+    width:48%;
+    border-bottom:1px dashed black;
+    padding-bottom:6px;
+    margin-bottom:50px;
+}
+.collab {
+    display:flex;
+    flex-direction:column;
+    width:48%;
+    border-bottom:1px dashed black;
+    padding-bottom:6px;
+    margin-bottom:50px;
+}
+.bottom-about{
+    margin-bottom:30px;
 }
