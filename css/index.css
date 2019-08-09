@@ -51,6 +51,7 @@ table {
     box-sizing: border-box;
 }
 
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -69,6 +70,25 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+.nav-container {
+    display:flex;
+    justify-content:space-between;
+    margin-top:50px;
+    align-content:center;
+    width:100%;
+}
+.nav-container a {
+    text-decoration:none;
+    color:black;
+    margin-top:30px;
+    
+}
+.jumbo-img {
+    display:flex;
+    justify-content:center;
+    widows: 98px;%;
+    margin:50px 10px;
 }
 
 .top-content {
@@ -104,14 +124,42 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.box1 {
+    background:teal;
+}
+.box2{
+    background:gold;
+}
+.box3{
+    background:cadetblue;
+}
+.box4 {
+    background:coral;
+}
+.box5{
+    background:crimson;
+}
+.box6{
+    background:forestgreen;
+}
+.box7{
+    background:darkorchid;
+}
+.box8{
+    background:hotpink;
+}
+.box9{
+    background:indigo
+}
+.box10{
+    background:dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +191,91 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Page 2 */
+
+.nav-container {
+    display:flex;
+    justify-content:space-between;
+    margin-top:50px;
+    align-content:center;
+    width:100%;
+}
+.nav-container a {
+    text-decoration:none;
+    color:black;
+    margin-top:30px;
+}
+.nav-container a:hover{
+    text-decoration:underline;
+    color:grey;
+} 
+.jumbo-about{
+    margin:50px 0;
+    width:100%;
+}
+.about-top{
+    margin-bottom:20px;
+    border-bottom:1px dashed black;
+    padding-bottom:24px;
+}
+.top-content-about{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+button {
+    padding:5px;
+    width:25%;
+    margin:7px 0px;
+    background:white;
+    border:1.5px solid black;
+    border-radius:8px;
+}
+.h2-about{
+    padding-top:12px;
+}
+.Strat-about {
+    display:flex;
+    flex-direction:column;
+    width:48%;
+    border-bottom:1px dashed black;
+    padding-bottom:6px;
+    margin-bottom:50px;
+}
+.how-we-work {
+    display:flex;
+    flex-direction:column;
+    width:48%;
+    border-bottom:1px dashed black;
+    padding-bottom:6px;
+    margin-bottom:50px;
+}
+.places-we-work {
+    display:flex;
+    flex-direction:column;
+    width:48%;
+    border-bottom:1px dashed black;
+    padding-bottom:6px;
+    margin-bottom:50px;
+}
+.collab {
+    display:flex;
+    flex-direction:column;
+    width:48%;
+    border-bottom:1px dashed black;
+    padding-bottom:6px;
+    margin-bottom:50px;
+}
+.bottom-about{
+    margin-bottom:30px;
+}
+
+/* Page 3 */
+.product-laptop {
+    width:78%;
+    height:300px;
+    margin:33px 117px;
+    object-fit: fill;
 }
