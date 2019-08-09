@@ -271,3 +271,11 @@ button {
 .bottom-about{
     margin-bottom:30px;
 }
+
+/* Page 3 */
+.product-laptop {
+    width:78%;
+    height:300px;
+    margin:33px 117px;
+    object-fit: fill;
+}
